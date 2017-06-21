@@ -8,11 +8,7 @@ const Main = () => (
 
       <div className="form">
         <div>
-          <h2><What is your Quote?</strong></h2>
-          <p>
-            <a href="#/Child1" className="btn btn-primary btn-lg">Show Child #1</a>
-            <a href="#/Child2" className="btn btn-primary btn-lg">Show Child #2</a>
-          </p>
+          <h2><What is your Quote?</strong></h2
         </div>
 
         <div className="row">
@@ -21,7 +17,7 @@ const Main = () => (
           {this.props.children}
 
         </div>
- 		<button id="update"> Darth Vadar invades! </button>
+ 		<button id="update"> </button>
       </div>
     );
  });
